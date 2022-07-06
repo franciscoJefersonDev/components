@@ -1,8 +1,11 @@
-import './style.css'
+import './style.scss'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
 app.innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+  <label class="switch">
+    Toggle
+    <input type="checkbox" class="switch__input">
+    <span class="switch__slider"></span>
+  </label>
 `

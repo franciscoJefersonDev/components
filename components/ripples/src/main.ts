@@ -6,5 +6,5 @@ app.innerHTML = `
   <button class="ripples">Click-me</button>
 `
 
-const elements = document.querySelectorAll<HTMLElement>('.ripples'!)
+const elements: any = document.querySelectorAll<HTMLElement>('.ripples')!
 new Ripples(elements)

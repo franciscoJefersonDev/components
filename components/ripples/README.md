@@ -10,14 +10,12 @@
 
 ```javascript
 import Ripples from 'https://cdn.jsdelivr.net/gh/franciscoJeferson/components_ui/components/finish/Ripples.js';
-new Ripples(elements);
 ```
 
 ### TS
 
 ```typescript
 import Ripples from 'https://cdn.jsdelivr.net/gh/franciscoJeferson/components_ui/components/finish/Ripples.ts';
-new Ripples(elements);
 ```
 
 ## CONFIGURATION

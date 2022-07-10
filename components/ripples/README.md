@@ -9,13 +9,13 @@
 ### JS
 
 ```javascript
-import Ripples from 'https://cdn.jsdelivr.net/gh/franciscoJeferson/components_ui/components/finish/Ripples.js';
+import Ripples from 'https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/finish/Ripples.js';
 ```
 
 ### TS
 
 ```typescript
-import Ripples from 'https://cdn.jsdelivr.net/gh/franciscoJeferson/components_ui/components/finish/Ripples.ts';
+import Ripples from 'https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/finish/Ripples.ts';
 ```
 
 ## CONFIGURATION
@@ -43,4 +43,4 @@ HTMLElement {
 ```
 
 ## DEMO
-### https://stackblitz.com/github/franciscoJeferson/components_ui/tree/main/components/ripples/finish/demo
+### https://franciscojefersondev.github.io/components/components/ripples/finish/demo/

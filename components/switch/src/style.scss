@@ -26,7 +26,13 @@ $unactive-circle: rgb(200, 200, 200);
 .switch {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background-color: $unactive-bg;
+  width: 46px;
+  height: 26px;
+  border-radius: 1em;
   &__input {
     visibility: hidden;
     &:checked + .switch__slider {
@@ -46,11 +52,11 @@ $unactive-circle: rgb(200, 200, 200);
   &__slider {
     display: flex;
     align-items: center;
-    position: relative;
+    position: absolute;
     cursor: pointer;
     background-color: $unactive-bg;
-    width: 46px;
-    height: 26px;
+    width: 100%;
+    height: 100%;
     border-radius: 1em;
     transition: background-color 0.1s linear, border-color 0.1s linear;
     &::before {

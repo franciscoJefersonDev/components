@@ -36,4 +36,4 @@ new Ripples(dropdowns);
 ```
 
 ## DEMO
-### https://franciscojefersondev.github.io/components/components/dropdown/finish/dist/
+### https://franciscojefersondev.github.io/components/components/dropdown/dist/

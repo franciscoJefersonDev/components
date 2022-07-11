@@ -1,0 +1,64 @@
+:root {
+  --active-bg: rgb(155, 93, 229);
+  --active-circle: rgb(255, 255, 255);
+  --unactive-bg: rgb(150, 150, 150);
+  --unactive-circle: rgb(200, 200, 200);
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--unactive-bg);
+  width: 46px;
+  height: 26px;
+  border-radius: 1em;
+}
+
+.switch__input {
+  visibility: hidden;
+}
+
+.switch__input:checked+.switch__slider {
+  background-color: var(--active-bg);
+}
+
+.switch__input:checked+.switch__slider::before {
+  background-color: var(--active-circle);
+  height: 22px;
+  width: 22px;
+  left: 21px;
+  margin: 0px;
+}
+
+.switch__input:disabled+.switch__slider {
+  cursor: not-allowed;
+}
+
+.switch__slider {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--unactive-bg);
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+  transition: background-color 0.1s linear, border-color 0.1s linear;
+}
+
+.switch__slider::before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  display: flex;
+  align-items: center;
+  background-color: var(--unactive-circle);
+  border-radius: 1em;
+  transition: left 175ms linear, background-color 0.1s linear,
+    height 50ms linear, width 50ms linear, margin 50ms linear;
+}

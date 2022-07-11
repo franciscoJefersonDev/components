@@ -18,10 +18,10 @@ export default class {
           menu.style.right = '0';
         }
         if (percentageHeightScreen <= 50) {
-          menu.style.bottom = '0';
+          menu.style.top = '0';
         }
         else {
-          menu.style.top = '0';
+          menu.style.bottom = '0';
         }
         menu.style.display = 'flex';
       });

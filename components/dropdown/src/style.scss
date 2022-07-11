@@ -1,0 +1,70 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+$bg-dropdown: rgb(255, 255, 255);
+$bg-dropdown-menu: rgb(200, 200, 200);
+
+body {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100vh;
+  & #app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+  }
+}
+
+ion-icon {
+  font-size: 1.5em;
+  pointer-events: none;
+}
+
+
+.dropdown {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $bg-dropdown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  &__button {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: transparent;
+    --rp-color: rgba(0, 0, 0, 0.2);
+    --rp-transition: 200;
+  }
+  &__menu {
+    position: absolute;
+    display: none;
+    right: 0;
+    width: 250px;
+    height: max-content;
+    background-color: $bg-dropdown-menu;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    padding: 20px;
+  }
+}

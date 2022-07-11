@@ -6,16 +6,10 @@
 
 ## IMPORT
 
-### JS
+### JS/TS
 
 ```javascript
-import Ripples from 'https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/finish/Ripples.js';
-```
-
-### TS
-
-```typescript
-import Ripples from 'https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/finish/Ripples.ts';
+import Ripples from 'https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/ripples/finish/Ripples.(js||ts)';
 ```
 
 ## CONFIGURATION
@@ -43,4 +37,4 @@ HTMLElement {
 ```
 
 ## DEMO
-### https://franciscojefersondev.github.io/components/components/ripples/finish/demo/
+### https://franciscojefersondev.github.io/components/components/ripples/dist/

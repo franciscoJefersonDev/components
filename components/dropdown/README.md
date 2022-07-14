@@ -15,7 +15,7 @@ import './Dropdown.(js||ts)';
 #### CSS/SCSS
 
 ```css
-import('./Dropdown.(css||scss'));
+import('./Dropdown.(css||scss)');
 
 ```
 

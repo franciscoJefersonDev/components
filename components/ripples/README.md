@@ -6,7 +6,7 @@
 
 #### JS/TS
 
-> recomended download the files localized in '/finish' in this repository in your application
+> Recomended download the files localized in '/finish' in this repository in your application.
 
 ```javascript
 import './Ripples.(js||ts)';

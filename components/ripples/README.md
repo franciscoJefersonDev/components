@@ -1,28 +1,23 @@
 # RIPPLES EFFECT
 
-> ## "Life to web buttons"
+## HOW TO USE
 
-# HOW TO USE
+### IMPORT
 
-## IMPORT
+#### JS/TS
 
-### JS/TS
+> recomended download the files localized in '/finish' in this repository in your application
 
 ```javascript
-import Ripples from 'https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/ripples/finish/Ripples.(js||ts)';
+import './Ripples.(js||ts)';
 ```
 
 ## CONFIGURATION
+
 ### HTML
 
 ```html
-<button class="className">Click-me</button>
-```
-### JS/TS
-
-```javascript
-const elements = document.querySelectorAll('.className')
-new Ripples(elements);
+<button class="ripples">Click-me</button>
 ```
 
 ### CSS
@@ -36,5 +31,6 @@ HTMLElement {
 }
 ```
 
-## DEMO
-### https://franciscojefersondev.github.io/components/components/ripples/dist/
+### DEMO
+
+#### <https://franciscojefersondev.github.io/components/components/ripples/dist/>

@@ -1,22 +1,27 @@
 # DROPDOWN
 
-# HOW TO USE
+## HOW TO USE
 
-## IMPORT
+### IMPORT
 
-### JS/TS
+#### JS/TS
+
+> recomended download the files localized in '/finish' in this repository in your application
 
 ```javascript
-import Dropdown from 'https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/dropdown/finish/Dropdown.(js||ts)';
+import './Dropdown.(js||ts)';
 ```
 
-### CSS/SCSS
+#### CSS/SCSS
 
 ```css
-import(https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/dropdown/finish/Dropdown.(css||scss)');
+import('./Dropdown.(css||scss'));
+
 ```
-## CONFIGURATION
-### HTML
+
+### CONFIGURATION
+
+#### HTML
 
 ```html
 <div class="dropdown">
@@ -28,12 +33,7 @@ import(https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/dr
   </ul>
 </div>
 ```
-### JS/TS
 
-```javascript
-const dropdowns = document.querySelectorAll('.dropdown')
-new Ripples(dropdowns);
-```
+### DEMO
 
-## DEMO
-### https://franciscojefersondev.github.io/components/components/dropdown/dist/
+#### <https://franciscojefersondev.github.io/components/components/dropdown/dist/>

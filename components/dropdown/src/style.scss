@@ -2,12 +2,15 @@
   margin: 0em;
   padding: 0em;
   user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  box-sizing: border-box;
+  -moz-box-sizing: none;
+  -webkit-box-sizing: none;
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
-
-$bg-dropdown: rgb(255, 255, 255);
-$bg-dropdown-menu: rgb(200, 200, 200);
 
 body {
   background-color: rgb(255, 255, 255);
@@ -29,6 +32,8 @@ ion-icon {
   pointer-events: none;
 }
 
+$bg-dropdown: rgb(255, 255, 255);
+$bg-dropdown-menu: rgb(200, 200, 200);
 
 .dropdown {
   width: 40px;

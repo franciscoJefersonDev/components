@@ -1,10 +1,9 @@
-import './style.scss'
-import Ripples from './Ripples'
+import './style.scss';
+import './Ripples';
 const app = document.querySelector<HTMLDivElement>('#app')!
 
 app.innerHTML = `
-  <button class="ripples">Click-me</button>
+  <button class="ripples">
+    <ion-icon name="add"></ion-icon>
+  </button>
 `
-
-const elements: any = document.querySelectorAll<HTMLElement>('.ripples')!
-new Ripples(elements)

@@ -1,16 +1,20 @@
 # SWITCH
 
-# HOW TO USE
+## HOW TO USE
 
-## IMPORT
+### IMPORT
 
-### CSS/SCSS
+> recomended download the files localized in '/finish' in this repository in your application
+
+#### CSS/SCSS
 
 ```css
-import(https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/Switch/finish/Switch.(css||scss)');
+import('./Switch.(css||scss)');
 ```
-## CONFIGURATION
-### HTML
+
+### CONFIGURATION
+
+#### HTML
 
 ```html
 <label class="switch">
@@ -19,5 +23,6 @@ import(https://cdn.jsdelivr.net/gh/franciscoJefersonDev/components/components/Sw
 </label>
 ```
 
-## DEMO
-### https://franciscojefersondev.github.io/components/components/switch/dist/
+### DEMO
+
+#### <https://franciscojefersondev.github.io/components/components/switch/dist/>

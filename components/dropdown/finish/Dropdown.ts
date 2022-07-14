@@ -1,5 +1,4 @@
-const body = document.body
-export default class {
+class Dropdown {
   constructor(dropdowns: HTMLDivElement[]) {
     dropdowns.forEach((item: HTMLDivElement) => {
       const activator = item.querySelector<HTMLButtonElement>('.dropdown__button')!
@@ -21,14 +20,26 @@ export default class {
         } else {
           menu.style.bottom = '0'
         }
-        menu.style.display = 'flex'
+        setTimeout(() => {
+          menu.style.display = 'flex'
+        }, 200)
       })
     })
-    body.addEventListener('click', () =>{
+    document.body.addEventListener('click', () =>{
       dropdowns.forEach((item: HTMLDivElement) => {
         const menu = item.querySelector<HTMLUListElement>('.dropdown__menu')!
-        menu.style.display = 'none'
+        setTimeout(() => {
+          menu.style.display = 'none'
+          menu.style.top = 'auto'
+          menu.style.left = 'auto'
+          menu.style.right = 'auto'
+          menu.style.bottom = 'auto'
+        }, 200)
       })
     })
   }
 }
+export default document.addEventListener("DOMContentLoaded", () => {
+  const dropdowns: any = document.querySelectorAll<HTMLDivElement>('.dropdown')
+  new Dropdown(dropdowns)
+})

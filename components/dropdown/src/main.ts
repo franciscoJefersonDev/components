@@ -1,6 +1,6 @@
 import './style.scss'
-import Dropdown from './Dropdown'
-import Ripples from './Ripples'
+import './Dropdown'
+import './Ripples'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
@@ -14,8 +14,3 @@ app.innerHTML = `
     </ul>
   </div>
 `
-
-const ripples: any = document.querySelectorAll<HTMLElement>('.ripples')!
-const dropdowns: any = document.querySelectorAll<HTMLDivElement>('.dropdown')!
-new Dropdown(dropdowns)
-new Ripples(ripples)

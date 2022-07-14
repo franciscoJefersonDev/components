@@ -12,15 +12,15 @@
 import './Ripples.(js||ts)';
 ```
 
-## CONFIGURATION
+### CONFIGURATION
 
-### HTML
+#### HTML
 
 ```html
 <button class="ripples">Click-me</button>
 ```
 
-### CSS
+#### CSS
 
 ```css
 HTMLElement {

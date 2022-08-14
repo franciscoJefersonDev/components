@@ -1,0 +1,63 @@
+@mixin default-all-elements-styles {
+  margin: 0em;
+  padding: 0em;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  box-sizing: border-box;
+  -moz-box-sizing: none;
+  -webkit-box-sizing: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: var(--fs);
+}
+
+@mixin default-variables-styles {
+  --bg-color: 255, 255, 255;
+  --primary: 131, 56, 236;
+  --text-color: 0, 0, 0;
+  --fs: 1em;
+  @media (prefers-color-scheme: dark) {
+    --bg-color: 40, 40, 40;
+    --text-color: 255, 255, 255;
+  }
+}
+
+@mixin default-body-styles {
+  background-color: rgb(var(--bg-color));
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@mixin default-app-styles {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+@mixin default-icon-styles {
+  font-size: 1.5em;
+  pointer-events: none;
+}
+
+@mixin default-h5-styles {
+  color: rgb(var(--primary));
+  font-weight: 400;
+  font-size: calc(var(--fs) + 0.3em);
+  user-select: all;
+  -ms-user-select: all;
+  -moz-user-select: all;
+  -webkit-user-select: all;
+}

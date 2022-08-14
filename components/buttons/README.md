@@ -10,16 +10,12 @@
 
 #### HTML
 
-#### DEFAULT BUTTON
-
 ```html
+Default button:
 <button class="wk-btn">Click-me</button>
-```
-#### NAVBAR BUTTON
-```html
+Navbar button: 
 <button class="wk-btn navbar">Icon</button>
 ```
-
 #### CSS
 
 ```css

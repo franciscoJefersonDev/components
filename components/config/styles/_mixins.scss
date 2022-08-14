@@ -55,7 +55,7 @@
 @mixin default-h5-styles {
   color: rgb(var(--primary));
   font-weight: 400;
-  font-size: calc(var(--fs) + 0.3em);
+  font-size: calc(var(--fs) + 0.2em);
   user-select: all;
   -ms-user-select: all;
   -moz-user-select: all;

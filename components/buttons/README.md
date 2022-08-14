@@ -9,22 +9,24 @@
 ### CONFIGURATION
 
 #### HTML
+
 #### DEFAULT BUTTON
+
 ```html
 <button class="wk-btn">Click-me</button>
 ```
 #### NAVBAR BUTTON
 ```html
-<button class="wk-btn navbar">Click-me</button>
+<button class="wk-btn navbar">Icon</button>
 ```
 
 #### CSS
 
 ```css
 HTMLElement {
-  --brd-radius: '';
-  --bg-color: '';
-  --text-color: '';
+  --brd-radius
+  --bg-color
+  --text-color
 }
 ```
 

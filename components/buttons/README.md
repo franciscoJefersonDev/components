@@ -21,12 +21,12 @@ Navbar button:
 
 ```css
 HTMLElement {
-  --brd-radius
-  --bg-color
-  --text-color
+  --brd-radius: 'your configuration';
+  --bg-color: 'your configuration';
+  --text-color: 'your configuration';
 }
 ```
 
 ### DEMO
 
-#### <https://franciscojefersondev.github.io/components/components/buttons/dist/>
+#### <https://webkit-components-ui.netlify.app/buttons/dist>

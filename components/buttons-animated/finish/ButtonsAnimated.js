@@ -54,7 +54,7 @@ export default document.addEventListener('DOMContentLoaded', () => {
     const buttonsAnimateds = document.querySelectorAll('.wk-btn-anim');
     new ButtonAnimated(buttonsAnimateds);
 });
-const AddManualAnimatedButtons = (buttonsAnimateds) => {
-    new ButtonAnimated(buttonsAnimateds);
+const AddManualBtnsAnim = (buttonsAnimated) => {
+    new ButtonAnimated(buttonsAnimated);
 };
-export { AddManualAnimatedButtons };
+export { AddManualBtnsAnim };

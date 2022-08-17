@@ -17,9 +17,15 @@ class ButtonAnimated {
       item.addEventListener('mouseenter', ( { target }: any ) => {
         this.initAnimation(target)
       })
+      item.addEventListener('mousedown', ( { target }: any ) => {
+        this.initAnimation(target)
+      })
       item.addEventListener('touchstart', ( { target }: any ) => {
         this.initAnimation(target)
       })
+      item.addEventListener("mouseup", ( { target }: any ) =>
+        this.finishAnimation(target)
+      )
       item.addEventListener("mouseleave", ( { target }: any ) =>
         this.finishAnimation(target)
       )
@@ -34,16 +40,16 @@ class ButtonAnimated {
   colletDatasFromElement(target: HTMLElement) {
     this.elementData.boxShadowDefault = window
       .getComputedStyle(target)
-      .getPropertyValue("--box-shadow-default")
+      .getPropertyValue("--bsw-default")
     this.elementData.boxShadowAfter = window
       .getComputedStyle(target)
-      .getPropertyValue("--box-shadow-after")
+      .getPropertyValue("--bsw-after")
     this.elementData.borderRadiusDefault = window
       .getComputedStyle(target)
-      .getPropertyValue("--border-radius-default")
+      .getPropertyValue("--brd-default")
     this.elementData.borderRadiusAfter = window
       .getComputedStyle(target)
-      .getPropertyValue("--border-radius-after")
+      .getPropertyValue("--brd-after")
   }
   initAnimation(target: HTMLElement) {
     this.colletDatasFromElement(target)
@@ -57,6 +63,14 @@ class ButtonAnimated {
   }
 }
 export default document.addEventListener('DOMContentLoaded', () => {
-  const buttonsAnimateds: any = document.querySelectorAll<HTMLElement>('.button-animated')!
+  const buttonsAnimateds: any = document.querySelectorAll<HTMLElement>('.wk-btn-anim')!
   new ButtonAnimated(buttonsAnimateds)
 })
+
+const AddManualBtnsAnim = (buttonsAnimated: HTMLElement[]) => {
+  new ButtonAnimated(buttonsAnimated);
+}
+
+export {
+  AddManualBtnsAnim
+}

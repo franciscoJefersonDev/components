@@ -2,11 +2,9 @@
 
 ## HOW TO USE
 
-### IMPORT
+### CONFIGURATION
 
 > Recomended download the files localized in '/finish' in this repository in your application.
-
-### CONFIGURATION
 
 #### HTML
 

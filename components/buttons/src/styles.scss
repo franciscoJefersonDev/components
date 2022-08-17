@@ -19,10 +19,8 @@ ion-icon {
   @include default-icon-styles;
 }
 
-h5 {
-  @include default-h5-styles;
-}
-
-input {
-  background-color: transparent;
+button {
+  background-color: rgb(var(--primary));
+  --brd-radius: 1em;
+  color: rgb(255, 255, 255);
 }

@@ -21,6 +21,8 @@ ion-icon {
 
 button {
   background-color: rgb(var(--primary));
-  --brd-radius: 1em;
   color: rgb(255, 255, 255);
+  --brd-radius: 1em;
+  --rp-color: rgba(var(--ripples-color));
+  --rp-transition: 200;
 }

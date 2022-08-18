@@ -15,7 +15,7 @@ Navbar button:
 <button class="wk-btn navbar">Icon</button>
 ```
 
-#### CSS
+#### CSS/SCSS
 
 ```css
 import './buttons.css';

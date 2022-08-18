@@ -22,7 +22,14 @@ ion-icon {
   pointer-events: none;
 }
 
-
 input {
   background-color: transparent;
+  font-size: var(--fs);
+  color: rgb(var(--text-color));
+  --brd-radius: 1em;
+  --brd-color: rgba(var(--text-color), 0.2);
+  --brd-size: 0.1em;
+  --ph-color: rgb(var(--primary));
+  --select-color: rgb(var(--primary));
+  --select-color-text: rgb(255, 255, 255);
 }

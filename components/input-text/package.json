@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "sass --style=compressed --update src/input-text.scss finish/input-text.css && tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {

@@ -1,26 +1,21 @@
 .wk-input-text {
-  --brd-radius: 1em;
-  --brd-color: rgba(var(--text-color), 0.2);
-  --brd-size: 1px;
-  --txt-indent: 10px;
-  --padding: 10px;
-  --fs: 1.05em;
-  --ph-color: rgb(var(--primary));
-  --txt-color: rgb(var(--text-color));
-  --select-color: rgb(var(--primary));
-  --select-color-text: rgb(255, 255, 255);
+  // --brd-radius: 1em;
+  // --brd-color: rgba(var(--text-color), 0.2);
+  // --brd-size: 1px;
+  // --ph-color: rgb(var(--primary));
+  // --txt-color: rgb(var(--text-color));
+  // --select-color: rgb(var(--primary));
+  // --select-color-text: rgb(255, 255, 255);
   // =================
   // RESET ELEMENT
-  border: none;
+  border: var(--brd-size) solid var(--brd-color);
   outline: none;
   user-select: all;
   -ms-user-select: all;
   -moz-user-select: all;
   -webkit-user-select: all;
-  text-indent: var(--txt-indent);
-  padding: var(--padding);
-  font-size: var(--fs);
-  color: var(--txt-color);
+  border-radius: var(--brd-radius);
+  padding: 0.7em;
   &::placeholder {
     color: var(--ph-color);
   }
@@ -39,12 +34,6 @@
     color: var(--select-color-text);
     background: var(--select-color);
   }
-  // ======================
-  &.rounded {
-    border-radius: var(--brd-radius);
-    border: var(--brd-size) solid var(--brd-color);
-  }
-
   // ALL SETTINGS
   &.text-left {
     text-align: left;

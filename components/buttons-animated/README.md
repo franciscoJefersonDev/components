@@ -22,7 +22,7 @@ AddManualBtnsAnim(btnsAnim)
 <button class="wk-btn-anim">Click-me</button>
 ```
 
-#### CSS
+#### CSS/SCSS
 
 ```css
 button {

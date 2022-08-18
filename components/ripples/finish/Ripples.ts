@@ -4,7 +4,6 @@ type TouchData = {
   right: number;
   bottom: number;
 };
-
 type ElementData = {
   size: number;
   color: string;
@@ -13,7 +12,6 @@ type ElementData = {
   halfHeight: number;
   touchData: TouchData;
 };
-
 class Ripples {
   rippleTimeout: any;
   rippleEnd: boolean;
@@ -183,4 +181,11 @@ class Ripples {
 export default document.addEventListener('DOMContentLoaded', () => {
   const ripplesElements: any = document.querySelectorAll<HTMLElement>(".ripples")!;
   new Ripples(ripplesElements);
-});
+})
+const AddManualRipples = (ripplesElements: HTMLElement[]) => {
+  new Ripples(ripplesElements);
+}
+
+export {
+  AddManualRipples
+}

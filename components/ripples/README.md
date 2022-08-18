@@ -2,7 +2,7 @@
 
 ## HOW TO USE
 
-### IMPORT
+### CONFIGURATION
 
 #### JS/TS
 
@@ -10,9 +10,11 @@
 
 ```javascript
 import './Ripples.(js||ts)';
+||
+import { AddManualRipples } from './Ripples.(js||ts)';
+const btnsRp = document.querySelector('...');
+new AddManualRipples(btnsRp);
 ```
-
-### CONFIGURATION
 
 #### HTML
 
@@ -23,14 +25,14 @@ import './Ripples.(js||ts)';
 #### CSS
 
 ```css
-HTMLElement {
+button {
   position: relative;
   overflow: hidden;
-  --rp-color: rgb, rgba, hsl, hsla, hex, hexa...;
-  --rp-transition: number;
+  --rp-color: 'your configuration';
+  --rp-transition: 'your configuration';
 }
 ```
 
 ### DEMO
 
-#### <https://franciscojefersondev.github.io/components/components/ripples/dist/>
+#### <https://webkit-components-ui.netlify.app/ripples/dist>

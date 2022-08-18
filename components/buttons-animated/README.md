@@ -25,7 +25,7 @@ AddManualBtnsAnim(btnsAnim)
 #### CSS
 
 ```css
-HTMLElement {
+button {
   --bsw-default: 'your configuration';
   --brd-default: 'your configuration';
   --bsw-after: 'your configuration';

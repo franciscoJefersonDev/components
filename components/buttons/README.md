@@ -18,10 +18,8 @@ Navbar button:
 #### CSS
 
 ```css
-HTMLElement {
+button {
   --brd-radius: 'your configuration';
-  --bg-color: 'your configuration';
-  --text-color: 'your configuration';
 }
 ```
 

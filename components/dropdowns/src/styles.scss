@@ -1,0 +1,73 @@
+@use "../../config/styles/mixins" as *;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('./buttons.css');
+@import './Dropdowns.scss';
+* {
+  @include default-all-elements-styles;
+}
+
+:root {
+  @include default-variables-styles;
+}
+
+body {
+  @include default-body-styles;
+  & #app {
+    @include default-app-styles;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-size: calc(var(--fs) + 0.3em);
+  color: rgb(var(--text-color));
+  font-weight: 400;
+}
+
+ion-icon {
+  @include default-icon-styles;
+}
+
+.wk-dropdown {
+  &:nth-child(1) {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+  }
+  &:nth-child(2) {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+  }
+  &:nth-child(3) {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+  }
+  &:nth-child(4) {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+  }
+}
+
+.wk-dropdown__active-button {
+  background-color: rgb(var(--primary));
+  color: rgb(255, 255, 255);
+  --rp-color: rgba(var(--ripples-color));
+  --rp-transition: 200;
+}
+
+.wk-dropdown__menu {
+  background-color: rgb(var(--bg-dropdown));
+  box-shadow: var(--bsw-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & li {
+    list-style: none;
+    color: rgb(var(--text-color));
+  }
+}

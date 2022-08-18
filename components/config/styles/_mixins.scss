@@ -16,12 +16,16 @@
 
 @mixin default-variables-styles {
   --bg-color: 255, 255, 255;
+  --ripples-color: 0, 0, 0, 0.2;
   --primary: 131, 56, 236;
   --text-color: 0, 0, 0;
+  --ripples-color: 255, 255, 255, 0.2;
   --fs: 1em;
   --bsw-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   @media (prefers-color-scheme: dark) {
     --bg-color: 40, 40, 40;
+    --bg-dropdown: 230, 230, 230;
+    --bg-dropdown: 65, 65, 65;
     --text-color: 255, 255, 255;
   }
 }

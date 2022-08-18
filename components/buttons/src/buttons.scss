@@ -12,6 +12,8 @@
   height: max-content;
   padding: 0.7em;
   border-radius: var(--brd-radius);
+  position: relative;
+  overflow: hidden;
   // If btn navbar
   &.navbar {
     width: 2.7em;

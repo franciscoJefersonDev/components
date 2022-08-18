@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "sass --style=compressed --update src/Dropdowns.scss finish/dropdowns.css && tsc --target esnext src/Dropdowns.ts --outdir finish && tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {

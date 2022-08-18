@@ -2,27 +2,32 @@
 
 ## HOW TO USE
 
-### IMPORT
+### CONFIGURATION
 
 > Recomended download the files localized in '/finish' in this repository in your application.
-
-#### CSS/SCSS
-
-```css
-import('./Switch.(css||scss)');
-```
-
-### CONFIGURATION
 
 #### HTML
 
 ```html
-<label class="switch">
-  <input type="checkbox" class="switch__input">
-  <span class="switch__slider"></span>
+<label class="wk-switch">
+  <input type="checkbox" class="wk-switch__input">
+  <span class="wk-switch__slider"></span>
 </label>
+```
+
+#### CSS/SCSS
+
+```css
+import('./switch.(css||scss)');
+
+.wk-switch {
+  --active-bg: 'your configuration';
+  --active-circle: 'your configuration';
+  --unactive-bg: 'your configuration';
+  --unactive-circle: 'your configuration';
+}
 ```
 
 ### DEMO
 
-#### <https://franciscojefersondev.github.io/components/components/switch/dist/>
+#### <https://webkit-components-ui.netlify.app/switch/dist>

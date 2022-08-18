@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "sass --style=compressed --update src/switch.scss finish/switch.css && tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {

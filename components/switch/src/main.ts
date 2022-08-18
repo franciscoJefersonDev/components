@@ -1,10 +1,10 @@
-import './style.scss'
+import './styles.scss';
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
 app.innerHTML = `
-  <label class="switch">
-    <input type="checkbox" class="switch__input">
-    <span class="switch__slider"></span>
+  <label class="wk-switch">
+    <input type="checkbox" class="wk-switch__input">
+    <span class="wk-switch__slider"></span>
   </label>
 `

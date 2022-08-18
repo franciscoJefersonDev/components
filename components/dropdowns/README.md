@@ -32,7 +32,7 @@ AddManualDropdowns(dropdowns, transition)
 #### CSS/SCSS
 
 ```css
-import './Dropdowns.css';
+import './dropdowns.css';
 ```
 
 ### DEMO

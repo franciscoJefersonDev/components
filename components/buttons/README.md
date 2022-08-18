@@ -18,6 +18,7 @@ Navbar button:
 #### CSS
 
 ```css
+@import './buttons.css';
 button {
   --brd-radius: 'your configuration';
 }

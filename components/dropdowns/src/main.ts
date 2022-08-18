@@ -1,6 +1,6 @@
 import './styles.scss';
 import './Dropdowns';
-import './Ripples';
+import '../../ripples/finish/Ripples';
 const app = document.querySelector<HTMLDivElement>('#app')!
 const compoenent = `
   <div class="wk-dropdown">

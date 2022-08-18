@@ -1,6 +1,6 @@
 import "./styles.scss";
 import "./buttons.scss";
-import "./Ripples";
+import "../../ripples/finish/Ripples";
 const app = document.querySelector<HTMLDivElement>("#app")!;
 const component = `
   <button class="wk-btn ripples">

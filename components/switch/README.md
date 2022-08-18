@@ -18,7 +18,7 @@
 #### CSS/SCSS
 
 ```css
-import('./switch.(css||scss)');
+import './switch.(css||scss)';
 
 .wk-switch {
   --active-bg: 'your configuration';

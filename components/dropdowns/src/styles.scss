@@ -56,7 +56,7 @@ ion-icon {
 .wk-dropdown__active-button {
   background-color: rgb(var(--primary));
   color: rgb(255, 255, 255);
-  --rp-color: rgba(var(--ripples-color));
+  --rp-color: rgba(255, 255, 255, 0.2);
   --rp-transition: 200;
 }
 

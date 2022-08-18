@@ -7,7 +7,7 @@ const component = `
     Default
   </button>
   <button class="wk-btn navbar ripples">
-    <ion-icon name="more"></ion-icon>
+    <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
   </button>
 `;
 app.innerHTML = component;

@@ -5,7 +5,7 @@ const app = document.querySelector<HTMLDivElement>('#app')!
 const compoenent = `
   <div class="wk-dropdown">
     <button class="wk-dropdown__active-button wk-btn navbar ripples">
-      <ion-icon name="more"></ion-icon>
+      <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
     </button>
     <ul class="wk-dropdown__menu">
       <li>This is dropdown</li>
@@ -13,7 +13,7 @@ const compoenent = `
   </div>
   <div class="wk-dropdown">
     <button class="wk-dropdown__active-button wk-btn navbar ripples">
-      <ion-icon name="more"></ion-icon>
+      <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
     </button>
     <ul class="wk-dropdown__menu">
       <li>This is dropdown</li>
@@ -21,7 +21,7 @@ const compoenent = `
   </div>
   <div class="wk-dropdown">
     <button class="wk-dropdown__active-button wk-btn navbar ripples">
-      <ion-icon name="more"></ion-icon>
+      <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
     </button>
     <ul class="wk-dropdown__menu">
       <li>This is dropdown</li>
@@ -29,7 +29,7 @@ const compoenent = `
   </div>
   <div class="wk-dropdown">
     <button class="wk-dropdown__active-button wk-btn navbar ripples">
-      <ion-icon name="more"></ion-icon>
+      <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
     </button>
     <ul class="wk-dropdown__menu">
       <li>This is dropdown</li>

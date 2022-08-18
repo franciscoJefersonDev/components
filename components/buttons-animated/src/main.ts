@@ -4,6 +4,6 @@ import './Ripples';
 const app = document.querySelector<HTMLDivElement>('#app')!
 app.innerHTML = `
   <button class="wk-btn wk-btn-anim ripples">
-    <ion-icon name="add"></ion-icon>
+    <ion-icon name="add-outline"></ion-icon>
   </button>
 `
